@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.10 ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+// DARKMODE
+.dark-mode {
+    background-color: #000;
+    color: #ffffff;
+  }
+  
+  .dark-mode h1,
+  .dark-mode p 
+  {
+    color: #ffffff;
+  }
+  
+  .dark-mode ul {
+    color: #ffffff;
+  }
+
+// navbar
+#hero {
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    .logo{
+        margin-left: 40px;
+    }
+
+    nav {
+        display: flex;
+        text-align: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            gap: 50px;
+            padding-left: 430px;
+        }
+
+        li {
+            text-align: center;
+            align-items: center;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: 700;
+                font-size: 15px;
+
+            }
+        }
+
+        .dark {
+            margin-left: 170px;
+            width: 7%;
+
+            img {
+                padding-left: 50px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+// hero section
+#home {
+    display: flex;
+    gap: 70px;
+    margin: 10px 15px 10px 40px;
+
+    .text {
+        margin-top: 130px;
+
+        .texbox2 {
+            padding-top: 14px;
+
+            a {
+                text-decoration: none;
+                font-size: 18px;
+            }
+        }
+
+        a:visited {
+            color: #742296;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            padding: 20px 0;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .button2 {
+            background-color: #742296;
+            border: none;
+            padding: 9px 14px;
+            color: #ffff;
+            font-size: 18px;
+
+        }
+
+        .button1 {
+            border: 5px solid #742296;
+            padding: 4px 14px;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+    }
+
+    .pictures {
+        display: flex;
+        width: 80%;
+        gap: 10px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+}
+
+.two {
+    margin-top: 100px;
+}
+
+// about
+#about {
+    h1 {
+        margin-left: 40px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px;
+        margin-top: 30px;
+
+        gap: 20px;
+
+
+        .images {
+            display: flex;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+
+            .image1 {
+                padding-top: 150px;
+
+            }
+        }
+
+        .about3 {
+            justify-content: center;
+            text-align: left;
+            width: 70%;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                padding-left: 15px;
+            }
+
+            img {
+                width: 90%;
+            }
+
+            button {
+                margin-top: 20px;
+                margin-left: 15px;
+                background: #742296;
+                color: #ffff;
+                border: none;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+// services
+#services {
+    h1 {
+        margin: 40px;
+    }
+
+    .images {
+        margin-left: 120px;
+        display: flex;
+        width: 80%;
+        gap: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+// comments
+#comment {
+    h1 {
+        padding-left: 40px;
+    }
+
+    .comments {
+        margin-left: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+        .comment1 {
+            margin-top: 250px;
+            width: 75%;
+
+            img {
+                width: 100%;
+            }
+
+            h2 {
+                padding: 20px 0;
+            }
+
+            h3 {
+                padding: 20px 0;
+            }
+        }
+
+        .comment {
+            margin-top: 0;
+            width: 80%;
+
+            img {
+                width: 80%;
+            }
+
+            h2 {
+                padding: 20px 0;
+            }
+
+            h3 {
+                padding: 20px 0;
+            }
+        }
+    }
+}
+
+// social media
+#socials {
+    margin: 50px;
+
+    button {
+        margin-left: 575px;
+        background: #742296;
+        padding: 10px 25px;
+        color: #ffff;
+        border: none;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .socials {
+        gap: 10px;
+        display: flex;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+        .two {
+            padding-bottom: 50px;
+        }
+    }
+}
