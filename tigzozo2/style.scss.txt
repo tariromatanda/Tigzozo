@@ -1,0 +1,15 @@
+.dark-mode { ul li a{
+    color: #fff;
+}
+    background-color: #000;
+    color: #ffffff;
+  }
+  
+ 
+  .dark-mode h1,.dark-mode p,.dark-mode a{
+    color: #fff;
+}
+  
+  .dark-mode a {
+    color: #ffffff;
+  }
